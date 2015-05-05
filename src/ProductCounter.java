@@ -46,11 +46,6 @@ class ProductCounter
 	}
 	
 	public void undoPay(){
-		func();
-		int value = 0;
-	}
-
-	private void func() {
 		info.getShop().increase(this);
 	}
 }
